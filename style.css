@@ -96,3 +96,17 @@ h4{
 :hover.create,h4,p{
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+/* media queries applied on main container */
+  @media screen and (max-width: 1024px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
